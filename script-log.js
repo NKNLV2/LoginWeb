@@ -259,7 +259,7 @@ class NeumorphismLoginForm {
         // Simulate redirect
         setTimeout(() => {
             console.log('Redirecting to dashboard...');
-            // window.location.href = '/dashboard';
+            window.location.href = 'home.html';
         }, 2500);
     }
 }
